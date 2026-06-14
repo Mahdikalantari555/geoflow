@@ -1,0 +1,51 @@
+# GeoFlow - Complete Requirements
+# Install: pip install -r requirements.txt
+# Or: conda install --file requirements.txt
+
+# Core dependencies
+numpy>=1.21
+pandas>=1.3
+xarray>=2022.6
+scipy>=1.7
+
+# Geospatial
+rasterio>=1.3
+rioxarray>=0.14
+pyproj>=3.4
+affine>=2.4
+shapely>=2.0
+
+# Data formats
+zarr>=2.16
+h5netcdf>=1.1
+netcdf4>=1.6
+
+# ML / Deep learning (choose at least one)
+torch>=2.0          # PyTorch
+tensorflow>=2.10    # TensorFlow (optional)
+jax>=0.4            # JAX (optional)
+
+# Unit registry
+pint>=0.20
+
+# Distributed / lazy computing
+dask[array]>=2023.0
+
+# Deep time support
+cftime>=1.6
+
+# STAC
+pystac>=1.9
+pystac-client>=0.6
+requests>=2.28
+
+# Cloud storage access
+s3fs>=2023.6
+gcsfs>=2023.6
+
+# Visualization
+matplotlib>=3.5
+hvplot>=0.8
+
+# Notebook / interactive
+ipython>=8.0
